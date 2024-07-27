@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Redirect</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(leaf6.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .search-container,
+        .check-container {
+            background-color: rgba(255, 255, 255, 0.8); /* Grey background color */
+            padding: 20px;
+            margin-bottom: 10px;
+            border-radius: 10px; /* Rounded corners */
+            width: 250px; /* Set desired width */
+        }
+        .one-liner {
+            margin-bottom: 10px;
+            color: rgb(6, 5, 5); /* Text color for the one-liner */
+        }
+        .green-box a {
+            text-decoration: none;
+            color: brown;
+            font-size: 16px;
+        }
+        .col-md-12 {
+            width: 100%; /* Make each box take full width */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="search-container">
+            <p class="one-liner">If you have a plant name, search here</p> <!-- One-liner text for search container -->
+            <div class="col-md-12">
+                <div class="green-box">
+                    <a href="index.php">Search</a>
+                </div>
+            </div>
+        </div>
+        <div class="check-container">
+            <p class="one-liner">Know plants Conservation Status</p>
+            <div class="col-md-12">
+                <div class="green-box">
+                    <a href="check.php">Check</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

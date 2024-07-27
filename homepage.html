@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <title>RARE ROOT REGISTRY</title>
+    <link rel="stylesheet" href="style2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script>
+        function showPopup() {
+            var popup = document.getElementById("popup");
+            popup.style.display = "block";
+        }
+
+        function hidePopup() {
+            var popup = document.getElementById("popup");
+            popup.style.display = "none";
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <img src="11zon_cropped.png" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="#" onclick="showPopup()">ABOUT US</a></li> <!-- Updated href attribute -->
+                    <li><a href="signup.php">SIGNUP</a></li>
+                    <li><a href="login.php">LOGIN</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h1>RARE ROOT REGISTRY</h1>
+                <br><p class="tagline">Cultivating Nature's Remedies</p>
+            </div>
+        </div>
+        <!-- Popup box -->
+        <div id="popup" class="popup">
+            <div class="popup-content">
+                <span class="close" onclick="hidePopup()">&times;</span>
+                <div class="popup-box">Vamsi-CSE Department</div>
+                <div class="popup-box">Lasya-CSE Department</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

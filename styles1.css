@@ -1,0 +1,90 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(leaf6.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Set height to cover the entire screen */
+    overflow: hidden; /* Prevent scrolling */
+}
+
+
+
+.container {
+    background-color: rgba(43, 41, 41, 0.8); /* Transparent white background */
+    border-radius: 10px;
+    padding: 20px;
+    width: 400px;
+    margin: 100px auto;
+    margin-bottom: 20px;
+    top: 50px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(244, 246, 247, 0.3);
+}
+
+
+.container h2 {
+    margin-bottom: 20px;
+    color: bisque;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: beige;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #8eb18f; /* Green button color */
+    color: rgb(13, 7, 7);
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #063909; /* Darker green on hover */
+}
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #717170; /* Grey background color */
+}
+input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #717170; /* Grey background color */
+}
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #717170; /* Grey background color */
+}
+
